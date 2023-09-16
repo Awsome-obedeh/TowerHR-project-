@@ -1,0 +1,67 @@
+.card {
+  /* padding: 1.5rem; */
+
+  border-radius: 0.375rem;
+  border: 1px solid var(--grey-bg, #f5f5f5);
+  background: var(--white, #fefffb);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+}
+.card-title {
+  color: var(--black-2, #303032);
+  font-family: Cabinet Grotesk;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.0125rem;
+  padding-left: 1rem;
+}
+.number {
+  color: var(--black-2, #303032);
+  font-family: Cabinet Grotesk;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.015rem;
+  padding-left: 1rem;
+}
+
+.increase {
+  color: var(--black-2, #303032);
+  font-family: Cabinet Grotesk;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.00625rem;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  text-align: center;
+  background-color: var(--lemon);
+}
+
+.increaseText {
+  color: var(--grey-text, #bcbcbc);
+  font-family: Cabinet Grotesk;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.00625rem;
+  padding-left: .25rem;
+}
+
+.view-details {
+  display: flex;
+  width: 17.1875rem;
+  padding: 0.875rem 0.625rem;
+
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0rem 0rem 0.375rem 0.375rem;
+  color: var(--lemon);
+  background: var(--black-2, #303032);
+}

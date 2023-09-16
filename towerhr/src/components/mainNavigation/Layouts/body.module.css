@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+  
+    flex-direction: row;
+    background-color: var(--white);     
+    /* gap:50rem; */
+    /* padding-left: 15rem; */
+}
+.sidenav{
+    flex-basis: 10%;
+}
+
+.bodyContent{
+    flex-basis: 90%;
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+}

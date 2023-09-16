@@ -1,0 +1,12 @@
+.firstSection{
+    
+    display: flex;
+  margin-top: 5.5rem;
+    flex-direction: row;
+   justify-content: center;
+    background-color: rgb(77, 158, 158);
+   /* align-items: flex-start; */
+    gap: 1.5625rem;
+
+    /* flex-shrink: 0; */
+}

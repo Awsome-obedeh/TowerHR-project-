@@ -13,11 +13,11 @@ export default function Topnav() {
       </div>
 
       <div className={classes.userSection}>
-        <div className={reminderHolder}>
-        <img src={reminderIcon} alt="reminder Icon" classes={classes.reminder} />
+        <div className={classes.reminderHolder}>
+           <img src={reminderIcon} alt="reminder Icon" classes={classes.reminder} />
         </div>
         <div className={classes.userName}>
-          <small>Awsome Obed</small>
+          <h4>Awsome Obed</h4>
           <small>Hr-Manager</small>
         </div>
 

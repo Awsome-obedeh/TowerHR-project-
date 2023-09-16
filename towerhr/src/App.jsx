@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import SideNav from './components/mainNavigation/sideNav';
 import Topnav from './components/mainNavigation/topnav';
+import Body from './components/mainNavigation/Layouts/body';
 import './App.css'
 
 
@@ -10,7 +10,8 @@ function App() {
   return (
     <>
     <Topnav/>
-     <SideNav />
+    
+    <Body/>
      
     </>
   )
