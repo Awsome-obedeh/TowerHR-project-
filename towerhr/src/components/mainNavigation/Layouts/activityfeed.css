@@ -1,0 +1,22 @@
+.feeds {
+  display: inline-flex;
+  padding: 1.25rem;
+  flex-direction: row;
+  justify-content: flex-start;
+  
+  align-items: center;
+  gap: 1.25rem;
+  border-radius: 0.75rem;
+  background: var(--white, #fefffb);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.feedImg-holder {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 6.25rem;
+  background: url("https://res.cloudinary.com/dvl2juial/image/upload/v1689066096/cld-sample-5.jpg");
+}
+button {
+  display: inline;
+}

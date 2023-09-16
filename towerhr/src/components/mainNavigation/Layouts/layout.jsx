@@ -1,4 +1,5 @@
 import Card from "./Cards/card"
+import ActivityFeed from "./activityfeed"
 import classes from "./layout.module.css"
 
 export default function MainLayout(){
@@ -12,6 +13,10 @@ export default function MainLayout(){
                 <Card title='Remote Employees' employeeNo={10} increase='10%'/>
                 <Card title='Online Employees' employeeNo={250} increase='20%'/>
                 <Card title='Open Vaccancies' employeeNo={9} increase='20%'/>
+            </div>
+
+            <div className={classes.secondSection}>
+                <ActivityFeed/>
             </div>
         
             
